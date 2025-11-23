@@ -8,6 +8,7 @@ import {
   DollarSign,
 } from "lucide-react";
 import { HeroScrollDemo } from "./HeroScrollDemo";
+import Navbar from "./Navbar";
 
 const Home: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
           "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
       }}
     >
+      <Navbar />
       {/* Hero Section */}
       <section className="relative mx-auto max-w-7xl px-6 pt-20 overflow-hidden pb-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 relative">
@@ -86,7 +88,7 @@ const Home: React.FC = () => {
                     +18.5%
                   </div>
                 </div>
-                <div className="mb-4">
+                <div className="mb-4 items-center justify-center flex flex-rows">
                   <div className="text-5xl font-bold bg-gradient-to-r from-[#081F5C] to-[#334EAC] bg-clip-text text-transparent mb-1">
                     $125,430
                   </div>
@@ -133,7 +135,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* CTA Section - Bold & Eye-catching */}
-      <section className="relative py-32 overflow-hidden">
+      <section className="relative py-32 overflow-hidden rounded-4xl">
         {/* Animated gradient background */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#081F5C] via-[#334EAC] to-[#081F5C]" />
 
@@ -145,13 +147,9 @@ const Home: React.FC = () => {
         </div>
 
         {/* Pattern overlay */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_rgba(0,0,0,0.2)_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_rgba(0,0,0,0.2)_100%)] rounded-2xl" />
 
-        <div className="relative mx-auto max-w-7xl px-6 text-center">
-          <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white mb-8 hover:scale-105 transition-transform">
-            <Sparkles className="w-5 h-5" />
-            <span className="font-bold">Join the Revolution</span>
-          </div>
+        <div className="relative mx-auto max-w-7xl px-6 text-center rounded-xl">
 
           <h2 className="text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
             Ready to Transform
@@ -162,7 +160,7 @@ const Home: React.FC = () => {
           </h2>
 
           <p className="text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Join thousands of users already earning and borrowing on Neko Protocol
+            Be the first to start earning and borrowing on Neko Protocol
           </p>
 
           <div className="flex flex-wrap gap-6 justify-center">
@@ -177,7 +175,7 @@ const Home: React.FC = () => {
               href="https://github.com/Neko-Protocol"
               className="px-12 py-6 bg-white/10 backdrop-blur-sm text-white rounded-full font-bold text-xl hover:bg-white/20 transition-all duration-300 border-2 border-white/40 hover:border-white/60 shadow-xl hover:scale-105"
             >
-              View Documentation
+              Documentation (GitHub)
             </a>
           </div>
         </div>
