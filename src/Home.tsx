@@ -9,11 +9,12 @@ import {
 } from "lucide-react";
 import { HeroScrollDemo } from "./HeroScrollDemo";
 import Navbar from "./Navbar";
+import FAQ from "./FAQ";
 
 const Home: React.FC = () => {
   return (
     <div
-      className="w-full overflow-hidden"
+      className="w-full"
       style={{
         fontFamily:
           "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
@@ -132,6 +133,11 @@ const Home: React.FC = () => {
       {/* HeroScrollDemo Section */}
       <section className="relative mx-auto max-w-7xl px-6 overflow-hidden">
         <HeroScrollDemo />
+      </section>
+
+      {/* FAQ Section */}
+      <section className="relative mx-auto max-w-7xl px-6 mb-16 lg:mb-24">
+        <FAQ />
       </section>
 
       {/* CTA Section - Bold & Eye-catching */}
