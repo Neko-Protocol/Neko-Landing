@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { HeroScrollDemo } from "./HeroScrollDemo";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Home: React.FC = () => {
   return (
@@ -179,6 +180,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
