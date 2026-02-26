@@ -10,6 +10,7 @@ import {
 import { HeroScrollDemo } from "./HeroScrollDemo";
 import ProblemStatement from "./ProblemStatement";
 import Navbar from "./Navbar";
+import { RwaFeatures } from "./RwaFeatures";
 import FAQ from "./FAQ";
 
 const Home: React.FC = () => {
@@ -131,6 +132,8 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      {/* RWA Features Section */}
+      <RwaFeatures />
       {/* Problem Statement Section */}
       <ProblemStatement />
 
