@@ -10,6 +10,7 @@ import {
 import { HeroScrollDemo } from "./HeroScrollDemo";
 import ProblemStatement from "./ProblemStatement";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import { RwaFeatures } from "./RwaFeatures";
 import FAQ from "./FAQ";
 
@@ -192,6 +193,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
