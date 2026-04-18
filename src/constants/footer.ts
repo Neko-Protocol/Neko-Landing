@@ -6,11 +6,9 @@ export interface FooterLink {
   isExternal?: boolean;
 }
 
-/** Links column: Problem, Solution, FAQ, Contact */
+/** Links column: Solution, Contact */
 export const FOOTER_LINKS: FooterLink[] = [
-  { href: '#problem', translationKey: 'footer.links.problem' },
   { href: '#features', translationKey: 'footer.links.solution' },
-  { href: '#faq', translationKey: 'footer.links.faq' },
   { href: '#cta', translationKey: 'footer.links.contact' },
 ];
 
@@ -18,7 +16,7 @@ export const FOOTER_LINKS: FooterLink[] = [
 export const FOOTER_RESOURCES: FooterLink[] = [
   { href: '#cta', translationKey: 'footer.resources.contact' },
   { href: '#cta', translationKey: 'footer.resources.downloadNeko', isExternal: false },
-  { href: '#faq', translationKey: 'footer.resources.aboutUs' },
+  { href: '#cta', translationKey: 'footer.resources.aboutUs' },
 ];
 
 /** Socials with URLs for icon row */
