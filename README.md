@@ -1,54 +1,69 @@
 <img width="2940" height="770" alt="banner" src="https://github.com/user-attachments/assets/b094f921-6242-4ecd-8034-cb4e9d0ce267" />
 
-Welcome to the Neko Protocol Landing Page repository! This project serves as the front-facing interface for Neko Protocol, providing users with an overview of the platform and access to its decentralized application (dApp).
+Welcome to the Neko Protocol Landing Page repository. This project is the front-facing interface for Neko Protocol: an overview of the platform, links to the dApp, bilingual content (Spanish and English), and a Supabase-backed waitlist form.
 
 ## What is Neko Protocol?
+
 Neko Protocol is a decentralized lending and borrowing platform that bridges traditional finance with decentralized finance (DeFi). It enables users to unlock liquidity for real-world assets (RWAs) on the Stellar blockchain. By leveraging Neko Protocol, users can:
 
 - Access instant liquidity for their real-world assets.
 - Participate in a fully decentralized and transparent financial ecosystem.
 - Benefit from seamless integration between traditional finance and DeFi.
 
-## About This Repository
-This repository contains the source code for the Neko Protocol landing page. The landing page is built using modern web technologies, including React, Tailwind CSS, and Vite. It provides users with:
+## About this repository
 
-- An introduction to Neko Protocol and its features.
-- Navigation to the dApp hosted at [dapp.nekoprotocol.xyz](https://dapp.nekoprotocol.xyz).
-- A visually appealing and responsive design.
+The landing page is built with **Next.js 16** (App Router), **React 19**, **TypeScript**, **Tailwind CSS v4**, **Framer Motion**, **Zustand**, and **Supabase** for the waitlist. The default locale is **Spanish** (`es`); visitors can switch to English from the navbar.
 
-## Key Features
-- **Hero Section**: Highlights the core value proposition of Neko Protocol.
-- **Interactive Components**: Includes animations and interactive elements to enhance user experience.
-- **Navigation Links**: Directs users to the dApp and other resources.
+Main sections: Navbar, Hero (flames, stocks, dual CTAs), Problem, Features (bento), FAQ, CTA, Waitlist, Footer.
 
-## Getting Started
-To run the project locally, follow these steps:
+- dApp: [dapp.nekoprotocol.xyz](https://dapp.nekoprotocol.xyz)
+- Protocol site: [nekoprotocol.xyz](https://nekoprotocol.xyz)
+
+## Getting started
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Neko-Protocol/Neko-Landing.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
    cd Neko-Landing
    ```
 
-3. Install dependencies:
+2. Install dependencies:
+
    ```bash
    npm install
    ```
 
-4. Start the development server:
+3. Copy environment variables (optional for local UI; required for waitlist inserts):
+
+   ```bash
+   cp .env.example .env.local
+   ```
+
+   Fill in `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`. If they are missing, the Supabase client stays `null` and the waitlist UI still loads; inserts only work with valid credentials.
+
+4. Run the dev server (opens at [http://localhost:3000](http://localhost:3000)):
+
    ```bash
    npm run dev
    ```
 
-5. Open your browser and navigate to `http://localhost:3000` to view the landing page.
+## Scripts
+
+| Command           | Description                    |
+| ----------------- | ------------------------------ |
+| `npm run dev`     | Next.js development server     |
+| `npm run build`   | Production build               |
+| `npm run start`   | Start production server        |
+| `npm run lint`    | ESLint                         |
+
+## Environment variables
+
+| Variable                         | Description                          |
+| -------------------------------- | ------------------------------------ |
+| `NEXT_PUBLIC_SUPABASE_URL`       | Supabase project URL               |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY`  | Supabase anonymous (public) key    |
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
----
-
-For more information about Neko Protocol, visit [nekoprotocol.xyz](https://nekoprotocol.xyz).
+This project is licensed under the MIT License. See the LICENSE file for details if present in the repository.

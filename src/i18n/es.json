@@ -1,0 +1,196 @@
+{
+  "hero": {
+    "title": "Plataforma todo en uno que unifica el acceso a RWAs en Stellar.",
+    "description": "Descubre, accede y activa los activos reales tokenizados, todo en un solo lugar en Stellar.",
+    "ctaPrimary": "Lanzar app",
+    "ctaSecondary": "Explorar activos",
+    "assets": {
+      "pyusd": "PYUSD — Stablecoin emitido por PayPal",
+      "usdc": "USDC — Dólar digital estable 1:1 emitido por Circle",
+      "stellar": "Stellar — Token nativo de la red Stellar",
+      "etherfuse": "Etherfuse — Stablebonds TradFi",
+      "usdy": "USDY — Nota tokenizada respaldada por Treasuries US a corto plazo"
+    }
+  },
+  "problem": {
+    "headlineLine1": "Los RWAs existen. Pero la",
+    "headlineLine2": "experiencia está rota",
+    "subheadline": "Los activos del mundo real se están moviendo on-chain, pero los usuarios cotidianos siguen enfrentando una experiencia fragmentada, compleja e improductiva.",
+    "fragmented": {
+      "title": "Ecosistema fragmentado y complejo",
+      "description": "Los RWAs están dispersos en plataformas desconectadas sin una plataforma unificada. Los usuarios deben saltar entre múltiples sitios solo para explorar y gestionar activos."
+    },
+    "discovery": {
+      "title": "Sin descubrimiento amigable para el consumidor",
+      "description": "Los RWAs no se presentan de una forma accesible para usuarios cotidianos. No existe un lugar simple para explorar y comparar RWAs como otros activos cripto."
+    },
+    "unproductive": {
+      "title": "Activos improductivos",
+      "description": "La mayoría de los RWAs quedan inactivos después de adquirirse. No generan rendimiento, no desbloquean liquidez ni se integran en DeFi."
+    }
+  },
+  "features": {
+    "headlineLine1": "Una mejor forma de acceder",
+    "headlineLine2": "a los activos del mundo real",
+    "subheadline": "Neko unifica descubrimiento, acceso y productividad en un solo espacio de RWAs pensado para el consumidor.",
+    "swap": {
+      "title": "Comprar, vender e intercambiar RWAs",
+      "description": "Intercambia RWAs como cualquier otro token —",
+      "descriptionSub": "instantáneamente y sin permisos."
+    },
+    "collateral": {
+      "title": "Usar RWAs como colateral",
+      "description": "Desbloquea liquidez sin vender tus activos."
+    },
+    "discover": {
+      "title": "Descubrir RWAs",
+      "description": "Encuentra tesorerías tokenizadas, crédito privado y otros activos del mundo real en un solo lugar."
+    },
+    "yield": {
+      "title": "Generar rendimiento con RWAs",
+      "description": "Convierte los RWAs en activos generadores de ingresos."
+    }
+  },
+  "navbar": {
+    "discover": "Descubrir",
+    "menu": "Menú",
+    "closeMenu": "Cerrar",
+    "changeLanguage": "Cambiar idioma",
+    "menuSections": {
+      "knowUs": {
+        "title": "Secciones",
+        "links": {
+          "problem": "Problema",
+          "solution": "Solución",
+          "faq": "FAQ",
+          "contact": "Contacto"
+        }
+      },
+      "social": {
+        "title": "REDES SOCIALES",
+        "links": {
+          "instagram": "Instagram",
+          "twitter": "X",
+          "linkedin": "LinkedIn",
+          "discord": "Discord"
+        }
+      },
+      "team": {
+        "title": "TEAM",
+        "links": {
+          "members": "Miembros",
+          "faq": "FAQ",
+          "join": "Únete"
+        }
+      }
+    }
+  },
+  "cta": {
+    "headlineLine1": "Conecta con nuestra comunidad y mantente al día",
+    "headlineLine1b": "con las últimas noticias.",
+    "headlineLine2": "Síguenos para más actualizaciones en nuestros productos.",
+    "cardCopy": "Conecta con nuestra comunidad y mantente al día con las últimas noticias.",
+    "instagram": "Instagram",
+    "twitter": "Twitter (X)",
+    "discord": "Discord",
+    "linkedin": "LinkedIn"
+  },
+  "waitlist": {
+    "headlineLine1": "Únete a la lista de espera",
+    "headlineLine2": "Acceso anticipado a Neko.",
+    "subheadline": "Sé de los primeros en acceder a la plataforma de activos del mundo real en Stellar.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "tu@email.com",
+    "submit": "Unirme a la lista",
+    "submitting": "Añadiéndote...",
+    "success": "Ya estás en la lista.",
+    "alreadyJoined": "Ya estás en la lista de espera.",
+    "errorInvalidEmail": "Introduce un email válido.",
+    "errorGeneric": "Algo falló. Inténtalo de nuevo.",
+    "disclaimer": "Al unirte aceptas recibir novedades de Neko. Puedes darte de baja cuando quieras."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "headlineLine1": "Tenemos todas las",
+    "headlineLine2": "respuestas que necesitas",
+    "subheadline": "Encuentra respuestas a preguntas frecuentes sobre Neko, nuestra misión, tecnología y cómo puedes participar",
+    "aboutNeko": {
+      "title": "Sobre Neko",
+      "q1": "¿Qué es Neko?",
+      "a1": "Neko es una plataforma todo en uno que unifica el acceso a activos del mundo real (RWAs) en Stellar.\nLos usuarios pueden descubrir, operar y activar activos tokenizados mediante mecanismos de préstamo y liquidez.\nLa plataforma agrega múltiples protocolos y emisores de RWAs en una sola interfaz.\nNeko también ofrece APIs que permiten a otras aplicaciones integrar funcionalidad de RWAs.",
+      "q2": "¿Cómo conecta Neko los activos del mundo real con DeFi?",
+      "a2": "Neko se conecta a los mercados de RWAs tokenizados en Stellar y los expone mediante contratos inteligentes, un SDK y una API, permitiendo que las apps usen esos tokens para préstamos, colateral y productos financieros en sus propias interfaces.",
+      "q3": "¿Qué hace diferente a Neko de otros protocolos DeFi?",
+      "a3": "Neko está construido específicamente para RWAs en Stellar y se ofrece como \"DeFi + SDK + API\", dando a las apps una capa de infraestructura sencilla para acciones tokenizadas, préstamos respaldados por RWAs y liquidez, en lugar de obligarlas a diseñar un protocolo completo.",
+      "q4": "¿Neko está construido sobre la blockchain de Stellar?",
+      "a4": "Sí, Neko está construido sobre el ecosistema Stellar y aprovecha sus capacidades de tokenización, bajas comisiones y rendimiento para soportar flujos DeFi centrados en RWAs."
+    },
+    "forUsers": {
+      "title": "Para usuarios",
+      "q1": "¿Cómo puedo acceder a activos tokenizados a través de Neko?",
+      "a1": "Accedes a Neko a través de apps y wallets que integran su SDK o API, lo que te permite interactuar con activos tokenizados y mercados de préstamos sin lidiar directamente con la infraestructura on-chain.",
+      "q2": "¿Qué tipos de productos financieros puedo usar con Neko?",
+      "a2": "Según la app, puedes obtener exposición a instrumentos financieros tokenizados, acceder a mercados de préstamos y usar funciones de colateral y liquidez respaldadas por RWAs.",
+      "q3": "¿Es seguro usar Neko?",
+      "a3": "Neko se apoya en la seguridad de Stellar y en contratos inteligentes transparentes, pero todo DeFi conlleva riesgo de mercado y de contrato, por lo que los usuarios deben hacer su propia investigación y evaluar su tolerancia al riesgo.",
+      "q4": "¿Necesito una wallet de cripto para usar Neko?",
+      "a4": "En la mayoría de los casos usarás una wallet compatible con Stellar o una app integrada que gestione la conexión por ti, ya que las interacciones con Neko requieren una cuenta capaz de firmar transacciones en Stellar."
+    },
+    "forDevelopers": {
+      "title": "Para desarrolladores",
+      "q1": "¿Cómo pueden los desarrolladores integrar Neko en sus apps o wallets?",
+      "a1": "Los desarrolladores integran Neko mediante su SDK frontend/móvil y API REST, llamando a métodos sencillos para préstamos, balances, precios y liquidez en lugar de conectar cada interacción con contratos inteligentes a mano.",
+      "q2": "¿Qué ofrece el SDK y la API de Neko?",
+      "a2": "El SDK y la API exponen funciones para ejecutar operaciones DeFi, obtener balances, mostrar precios de RWAs tokenizados y manejar flujos financieros habituales en Stellar de forma amigable para desarrolladores.",
+      "q3": "¿Cuánto suele tardar la integración?",
+      "a3": "Neko está diseñado para que los equipos puedan lanzar en días, no meses, abstraendo la complejidad de RWAs y DeFi detrás de llamadas sencillas al SDK y la API.",
+      "q4": "¿Dónde pueden los desarrolladores encontrar documentación o entornos de prueba?",
+      "a4": "Los desarrolladores pueden usar la documentación de Neko, que incluye guías del SDK, referencias de la API y ejemplos, además de indicaciones sobre redes de prueba y herramientas para validar integraciones antes de salir a producción."
+    },
+    "forBusinesses": {
+      "title": "Para empresas y socios",
+      "q1": "¿Cómo pueden las apps fintech o wallets asociarse con Neko?",
+      "a1": "Las fintechs y wallets pueden adoptar Neko como capa de infraestructura, integrando el SDK/API y coordinando requisitos como cumplimiento normativo, flujos de usuario y soporte operativo.",
+      "q2": "¿Se puede adaptar Neko a casos de uso o requisitos concretos?",
+      "a2": "Sí, la infraestructura modular de Neko permite a los socios elegir qué productos habilitar—exposición a RWAs, préstamos o liquidez—y cómo mostrarlos en su experiencia de usuario y contexto regulatorio.",
+      "q3": "¿Qué tipo de experiencias financieras pueden construir los socios con Neko?",
+      "a3": "Los socios pueden construir experiencias como acceso a activos tokenizados, líneas de crédito respaldadas por RWAs, productos de rendimiento basados en colateral y vistas integradas de balances y precios dentro de sus propias apps."
+    },
+    "general": {
+      "title": "General y técnico",
+      "q1": "¿Qué redes o protocolos pueden interactuar con Neko?",
+      "a1": "Neko funciona en Stellar pero puede ser usado por productos que trabajen con otras redes, siempre que esas apps puedan conectarse a Stellar y a los contratos o APIs que exponen los flujos RWA y DeFi de Neko.",
+      "q2": "¿Neko cobra comisiones por transacciones o integraciones?",
+      "a2": "Neko puede aplicar comisiones de protocolo o a nivel de servicio en ciertas operaciones, además de las comisiones de red nativas de Stellar; el modelo de comisiones exacto puede variar según el producto o la integración.",
+      "q3": "¿Cómo garantiza Neko transparencia y estabilidad para los RWAs?",
+      "a3": "Usando la tokenización y los registros on-chain de Stellar, junto con reglas claras de contratos inteligentes sobre activos y flujos, Neko busca ofrecer trazabilidad y exposición respaldada por RWAs menos volátil que los activos cripto puramente especulativos.",
+      "q4": "¿Dónde puedo aprender más o mantenerme al día sobre Neko?",
+      "a4": "Puedes seguir los canales oficiales y la documentación de Neko, donde se publican nuevas integraciones, actualizaciones del protocolo y recursos para usuarios, desarrolladores y socios."
+    }
+  },
+  "footer": {
+    "description": "Descubre, accede y activa los activos reales tokenizados, todo en un solo lugar en Stellar.",
+    "email": "info@oppiasoftwarelabs.com",
+    "linksTitle": "Enlaces",
+    "links": {
+      "problem": "Problema",
+      "solution": "Solución",
+      "faq": "FAQ",
+      "contact": "Contacto"
+    },
+    "resourcesTitle": "Recursos",
+    "resources": {
+      "contact": "Contacto",
+      "downloadNeko": "Neko App",
+      "aboutUs": "Sobre nosotros"
+    },
+    "socialsTitle": "Redes",
+    "socials": {
+      "instagram": "Instagram",
+      "twitter": "X",
+      "linkedin": "LinkedIn",
+      "discord": "Discord"
+    },
+    "copyright": "2026 Neko — Todos los derechos reservados"
+  }
+}

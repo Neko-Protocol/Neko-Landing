@@ -1,0 +1,196 @@
+{
+  "hero": {
+    "title": "All-in-one Platform that Unifies Access to RWAs on Stellar.",
+    "description": "Discover, access, and activate tokenized real-world assets, all in one place on Stellar.",
+    "ctaPrimary": "Launch App",
+    "ctaSecondary": "Explore Assets",
+    "assets": {
+      "pyusd": "PYUSD — Stablecoin issued by PayPal",
+      "usdc": "USDC — Stable digital dollar 1:1 issued by Circle",
+      "stellar": "Stellar — Native token on the Stellar Network",
+      "etherfuse": "Etherfuse — TradFi stablebonds",
+      "usdy": "USDY — Tokenized note secured by short-term US Treasuries"
+    }
+  },
+  "problem": {
+    "headlineLine1": "RWAs Exist. But the experience",
+    "headlineLine2": " Is Broken",
+    "subheadline": "Real-world assets are moving on-chain, but everyday users still face a broken, fragmented, and unproductive experience.",
+    "fragmented": {
+      "title": "Fragmentation & Complexity",
+      "description": "RWAs are scattered across disconnected platforms with no unified platform. Users must jump between multiple sites just to explore and manage assets."
+    },
+    "discovery": {
+      "title": "No Consumer-Friendly Discovery",
+      "description": "RWAs are not presented in a way that feels approachable for everyday users. There is no simple place to browse and compare RWAs like other crypto assets."
+    },
+    "unproductive": {
+      "title": "Unproductive Assets",
+      "description": "Most RWAs sit idle after being acquired. They don't generate yield, unlock liquidity, or integrate into DeFi."
+    }
+  },
+  "features": {
+    "headlineLine1": "A Better Way to Access",
+    "headlineLine2": "Real-World Assets",
+    "subheadline": "Neko unifies discovery, access, and productivity into a single consumer-friendly platform for RWAs.",
+    "swap": {
+      "title": "Buy, Sell & Swap RWAs",
+      "description": "Trade RWAs like any other token ",
+      "descriptionSub": "instantly and permissionlessly."
+    },
+    "collateral": {
+      "title": "Use RWAs as Collateral",
+      "description": "Unlock liquidity without selling your assets."
+    },
+    "discover": {
+      "title": "Discover RWAs",
+      "description": "Find tokenized treasuries, private credit, and other real-world assets in one place."
+    },
+    "yield": {
+      "title": "Earn Yield on RWAs",
+      "description": "Turn RWAs into income-generating assets."
+    }
+  },
+  "navbar": {
+    "discover": "Discover",
+    "menu": "Menu",
+    "closeMenu": "Close",
+    "changeLanguage": "Change language",
+    "menuSections": {
+      "knowUs": {
+        "title": "Sections",
+        "links": {
+          "problem": "Problem",
+          "solution": "Solution",
+          "faq": "FAQ",
+          "contact": "Contact"
+        }
+      },
+      "social": {
+        "title": "SOCIAL MEDIA",
+        "links": {
+          "instagram": "Instagram",
+          "twitter": "X",
+          "linkedin": "LinkedIn",
+          "discord": "Discord"
+        }
+      },
+      "team": {
+        "title": "TEAM",
+        "links": {
+          "members": "Members",
+          "faq": "FAQ",
+          "join": "Join"
+        }
+      }
+    }
+  },
+  "cta": {
+    "headlineLine1": "Connect with our community and stay updated",
+    "headlineLine1b": "with the latest news.",
+    "headlineLine2": "Follow us for more updates in our products.",
+    "cardCopy": "Connect with our community and stay updated with the latest news.",
+    "instagram": "Instagram",
+    "twitter": "Twitter (X)",
+    "discord": "Discord",
+    "linkedin": "LinkedIn"
+  },
+  "waitlist": {
+    "headlineLine1": "Join the waitlist",
+    "headlineLine2": "Get early access to Neko.",
+    "subheadline": "Be among the first to access the platform for real-world assets on Stellar.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "submit": "Join waitlist",
+    "submitting": "Adding you...",
+    "success": "You're on the list.",
+    "alreadyJoined": "You're already on the waitlist.",
+    "errorInvalidEmail": "Please enter a valid email.",
+    "errorGeneric": "Something went wrong. Try again.",
+    "disclaimer": "By joining you agree to receive updates about Neko. Unsubscribe anytime."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "headlineLine1": "We have every answer",
+    "headlineLine2": "you need",
+    "subheadline": "Find answers to common questions about Neko, our mission, technology, and how you can get involved",
+    "aboutNeko": {
+      "title": "About Neko",
+      "q1": "What is Neko?",
+      "a1": "Neko is an all-in-one platform that unifies access to real-world assets (RWAs) on Stellar.\nUsers can discover, trade, and activate tokenized assets through lending and liquidity mechanisms.\nThe platform aggregates multiple protocols and RWA issuers into a single interface.\nNeko also provides APIs that allow other applications to integrate RWA functionality.",
+      "q2": "How does Neko connect real-world assets to DeFi?",
+      "a2": "Neko plugs into tokenized RWA markets on Stellar and exposes them through smart contracts, an SDK, and an API, letting apps use those tokens for lending, collateral, and financial products inside their own interfaces.",
+      "q3": "What makes Neko different from other DeFi protocols?",
+      "a3": "Neko is built specifically for RWAs on Stellar and ships as \"DeFi + SDK + API,\" giving apps a simple infrastructure layer for tokenized stocks, RWA-backed lending, and liquidity instead of forcing them to design a full protocol.",
+      "q4": "Is Neko built on the Stellar blockchain?",
+      "a4": "Yes, Neko is built on the Stellar ecosystem and leverages its tokenization capabilities, low fees, and performance to support RWA-focused DeFi flows."
+    },
+    "forUsers": {
+      "title": "For users",
+      "q1": "How can I access tokenized assets through Neko?",
+      "a1": "You access Neko through apps and wallets that integrate its SDK or API, which let you interact with tokenized assets and lending markets without dealing directly with on-chain infrastructure.",
+      "q2": "What types of financial products can I use with Neko?",
+      "a2": "Depending on the app, you can get exposure to tokenized financial instruments, access borrowing and lending markets, and use RWA-backed collateral and liquidity features.",
+      "q3": "Is it safe to use Neko?",
+      "a3": "Neko relies on Stellar's security and transparent smart contracts, but all DeFi involves market and smart contract risk, so users should always do their own research and assess their risk tolerance.",
+      "q4": "Do I need a crypto wallet to use Neko?",
+      "a4": "In most cases you will use a Stellar-compatible wallet or an integrated app that manages the connection for you, since interactions with Neko require an account capable of signing transactions on Stellar."
+    },
+    "forDevelopers": {
+      "title": "For developers",
+      "q1": "How can developers integrate Neko into their apps or wallets?",
+      "a1": "Developers integrate Neko via its frontend/mobile SDK and REST API, calling simple methods for lending, balances, prices, and liquidity instead of wiring every smart contract interaction by hand.",
+      "q2": "What does the Neko SDK and API provide?",
+      "a2": "The SDK and API expose functions to trigger DeFi operations, fetch balances, display prices for tokenized RWAs, and handle common financial flows on Stellar in a developer-friendly way.",
+      "q3": "How long does integration usually take?",
+      "a3": "Neko is designed so teams can ship in days, not months, by abstracting RWA and DeFi complexity behind straightforward SDK and API calls.",
+      "q4": "Where can developers find documentation or test environments?",
+      "a4": "Developers can use Neko's documentation, which includes SDK guides, API references, and examples, along with pointers to test networks and tools to validate integrations before going live."
+    },
+    "forBusinesses": {
+      "title": "For businesses and partners",
+      "q1": "How can fintech apps or wallets partner with Neko?",
+      "a1": "Fintechs and wallets can adopt Neko as an infrastructure layer, integrating the SDK/API and coordinating on requirements such as compliance, user flows, and operational support.",
+      "q2": "Can Neko be tailored to specific use cases or requirements?",
+      "a2": "Yes, Neko's modular infrastructure lets partners choose which products—like RWA exposure, lending, or liquidity—to enable and how to surface them in their UX and regulatory context.",
+      "q3": "What kinds of financial experiences can partners build with Neko?",
+      "a3": "Partners can build experiences such as access to tokenized assets, RWA-backed credit lines, yield-style products based on collateral, and integrated balance and price views inside their own apps."
+    },
+    "general": {
+      "title": "General and technical",
+      "q1": "Which networks or protocols can interact with Neko?",
+      "a1": "Neko runs on Stellar but can be used by products that work with other networks, as long as those apps can connect to Stellar and to the contracts or APIs that expose Neko's RWA and DeFi flows.",
+      "q2": "Does Neko charge fees for transactions or integrations?",
+      "a2": "Neko may apply protocol or service-level fees on certain operations, in addition to native Stellar network fees, and the exact fee model can vary by product or integration.",
+      "q3": "How does Neko ensure transparency and stability for RWAs?",
+      "a3": "By using Stellar's tokenization and on-chain records, along with clear smart contract rules over assets and flows, Neko aims to provide traceability and RWA-backed exposure that is less volatile than purely speculative crypto assets.",
+      "q4": "Where can I learn more or stay updated on Neko?",
+      "a4": "You can follow Neko's official channels and documentation, where new integrations, protocol updates, and resources for users, developers, and partners are published."
+    }
+  },
+  "footer": {
+    "description": "Discover, access, and activate tokenized real-world assets, all in one place on Stellar.",
+    "email": "info@oppiasoftwarelabs.com",
+    "linksTitle": "Links",
+    "links": {
+      "problem": "Problem",
+      "solution": "Solution",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "resourcesTitle": "Resources",
+    "resources": {
+      "contact": "Contact",
+      "downloadNeko": "Neko App",
+      "aboutUs": "About us"
+    },
+    "socialsTitle": "Socials",
+    "socials": {
+      "instagram": "Instagram",
+      "twitter": "X",
+      "linkedin": "LinkedIn",
+      "discord": "Discord"
+    },
+    "copyright": "2026 Neko — All Rights Reserved"
+  }
+}
