@@ -4,8 +4,8 @@ import Neko from "/Neko.svg";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="fixed top-8 left-1/2 -translate-x-1/2 z-50 w-full max-w-[90%] md:max-w-5xl lg:max-w-6xl px-4">
-      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-full px-8 py-4 flex items-center justify-between shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+    <header className="fixed top-8 left-1/2 -translate-x-1/2 z-50 w-full max-w-[90%] md:max-w-6xl lg:max-w-7xl px-4">
+      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-full px-10 py-5 flex items-center justify-between shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
         {/* Left: Menu */}
         <button className="flex items-center gap-3 text-white/80 hover:text-white transition-all group">
           <div className="flex flex-col gap-1.5 w-7">
