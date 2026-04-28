@@ -7,7 +7,7 @@ export function HeroScrollDemo() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-4xl font-bold text-black dark:text-white">
+            <h1 className="text-4xl font-bold text-white">
               RWAs are meant to be <br />
               <span className="text-5xl md:text-[6rem] text-blue-500 font-bold mt-1 leading-none">
                 COOL

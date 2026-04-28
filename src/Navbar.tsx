@@ -1,36 +1,37 @@
 import React from "react";
+import { Menu, Globe, ChevronDown } from "lucide-react";
 import Neko from "/Neko.svg";
 
 const Navbar: React.FC = () => {
-  const navItems = [
-    { name: "Get Started", path: "#cta" },
-  ];
-
   return (
-    <header className="sticky top-0 z-40 mx-auto w-full max-w-7xl px-6 py-4">
-      <div className="flex items-center justify-between">
-        {/* Left Side: Logo & Name */}
-        <div className="flex items-center gap-4">
-          <a href="/" className="flex items-center gap-3">
-            <img src={Neko} alt="Neko Logo" className="h-12 w-auto" />
-            <span className="text-2xl font-bold text-[#081F5C] tracking-wide">
-              Neko
-            </span>
-          </a>
-        </div>
+    <header className="fixed top-8 left-1/2 -translate-x-1/2 z-50 w-full max-w-[90%] md:max-w-5xl lg:max-w-6xl px-4">
+      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-full px-8 py-4 flex items-center justify-between shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+        {/* Left: Menu */}
+        <button className="flex items-center gap-3 text-white/80 hover:text-white transition-all group">
+          <div className="flex flex-col gap-1.5 w-7">
+            <div className="h-0.5 w-full bg-current transition-all group-hover:w-full"></div>
+            <div className="h-0.5 w-2/3 bg-current transition-all group-hover:w-full"></div>
+          </div>
+          <span className="text-sm font-bold uppercase tracking-widest">Menu</span>
+        </button>
 
-        {/* Center: Navigation Links */}
-        <nav className="hidden md:flex items-center bg-[#081F5C] rounded-full px-6 py-2 shadow-xl border border-[#334EAC]/30">
-          {navItems.map((item) => (
-            <a
-              key={item.name}
-              href={item.path}
-              className="px-10 py-2 rounded-full text-m font-medium transition-all duration-200 text-[#BAD6EB] hover:text-[#FFF9F0] hover:bg-[#334EAC]/20"
-            >
-              {item.name}
-            </a>
-          ))}
-        </nav>
+        {/* Center: Logo */}
+        <a href="/" className="flex items-center gap-2 absolute left-1/2 -translate-x-1/2 hover:scale-105 transition-transform">
+          <img src={Neko} alt="Neko Logo" className="h-10 w-auto" />
+          <span className="text-3xl font-black text-white tracking-tighter">Neko</span>
+        </a>
+
+        {/* Right: Discover & English */}
+        <div className="flex items-center gap-8">
+          <a href="#discover" className="hidden md:block text-sm font-bold text-white/80 hover:text-white transition-colors uppercase tracking-widest">
+            Discover
+          </a>
+          <button className="flex items-center gap-2 text-white/80 hover:text-white transition-colors group">
+            <Globe className="w-5 h-5" />
+            <span className="text-sm font-bold uppercase tracking-widest">English</span>
+            <ChevronDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
+          </button>
+        </div>
       </div>
     </header>
   );
