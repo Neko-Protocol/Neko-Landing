@@ -13,6 +13,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { RwaFeatures } from "./RwaFeatures";
 import FAQ from "./FAQ";
+import HeroSection from "./HeroSection";
 
 const Home: React.FC = () => {
   return (
@@ -24,8 +25,11 @@ const Home: React.FC = () => {
       }}
     >
       <Navbar />
-      {/* Hero Section */}
-      <section className="relative mx-auto max-w-7xl px-6 pt-20 overflow-hidden pb-10">
+      {/* New Hero Section */}
+      <HeroSection />
+      
+      {/* Original Hero Section - keeping for reference */}
+      <section className="relative mx-auto max-w-7xl px-6 pt-20 overflow-hidden pb-10 hidden">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 relative">
           {/* Left Content */}
           <div className="flex-1 space-y-8">
