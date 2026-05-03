@@ -13,6 +13,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { RwaFeatures } from "./RwaFeatures";
 import FAQ from "./FAQ";
+import HeroSection from "./HeroSection";
 
 const Home: React.FC = () => {
   return (
@@ -24,8 +25,11 @@ const Home: React.FC = () => {
       }}
     >
       <Navbar />
-      {/* Hero Section */}
-      <section className="relative mx-auto max-w-7xl px-6 pt-20 overflow-hidden pb-10">
+      {/* New Hero Section */}
+      <HeroSection />
+      
+      {/* Original Hero Section - keeping for reference */}
+      <section className="relative w-full pt-20 overflow-hidden pb-10 hidden">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 relative">
           {/* Left Content */}
           <div className="flex-1 space-y-8">
@@ -139,12 +143,12 @@ const Home: React.FC = () => {
       <ProblemStatement />
 
       {/* HeroScrollDemo Section */}
-      <section className="relative mx-auto max-w-7xl px-6 overflow-hidden">
+      <section className="relative w-full overflow-hidden">
         <HeroScrollDemo />
       </section>
 
       {/* FAQ Section */}
-      <section className="relative mx-auto max-w-7xl px-6 mb-16 lg:mb-24">
+      <section className="relative w-full mb-16 lg:mb-24">
         <FAQ />
       </section>
 
@@ -163,7 +167,7 @@ const Home: React.FC = () => {
         {/* Pattern overlay */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_rgba(0,0,0,0.2)_100%)] rounded-2xl" />
 
-        <div className="relative mx-auto max-w-7xl px-6 text-center rounded-xl">
+        <div className="relative w-full text-center rounded-xl">
           <h2 className="text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
             Ready to Transform
             <br />
