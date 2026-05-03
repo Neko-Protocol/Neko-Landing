@@ -6,6 +6,20 @@ interface ProblemCardProps {
   imagePath: string;
 }
 
+const ProblemCard: React.FC<ProblemCardProps> = ({
+  title,
+  text,
+  imagePath,
+}) => (
+  <div className="group relative bg-[#141414] border border-white/10 rounded-[28px] p-8 overflow-hidden transition-all duration-500 shadow-[0_24px_60px_rgba(0,0,0,0.25)] hover:-translate-y-1 hover:shadow-[0_32px_80px_rgba(51,78,172,0.24)] flex flex-col h-full">
+    <div className="absolute inset-x-0 -bottom-10 h-40 bg-gradient-to-t from-[#334EAC]/12 to-transparent pointer-events-none" />
+
+    <div className="relative z-10 flex flex-col h-full">
+      <div className="space-y-4">
+        <h3 className="text-xl md:text-2xl font-semibold text-white leading-tight text-left">
+          {title}
+        </h3>
+        <p className="text-sm md:text-base text-slate-400 leading-7 text-left">
 const ProblemCard: React.FC<ProblemCardProps> = ({ title, text, imagePath }) => (
   <div className="group relative bg-[#0a0a0a] border border-white/10 rounded-[40px] p-10 overflow-hidden transition-all duration-700 cursor-pointer hover:border-blue-500/30 hover:scale-[1.02] hover:shadow-[0_20px_50px_rgba(59,130,246,0.05)] flex flex-col h-full">
     {/* Subtle Gradient Glow on Hover */}
@@ -21,6 +35,11 @@ const ProblemCard: React.FC<ProblemCardProps> = ({ title, text, imagePath }) => 
         </p>
       </div>
 
+      <div className="relative mt-auto pt-8 min-h-[190px] flex items-end justify-center">
+        <img
+          src={imagePath}
+          alt={title}
+          className="relative w-full max-w-[260px] h-auto object-contain drop-shadow-[0_24px_80px_rgba(0,0,0,0.35)] transition-transform duration-500 group-hover:scale-105"
       {/* 3D Illustration Space - Bottom aligned */}
       <div className={`mt-auto pt-16 flex relative bottom-[-30px] right-[-30px] ${imagePath === '/problemcardIcon/cardThreeIcon.png' ? 'left-[-40px]' : 'left-0'} items-end justify-end transform group-hover:scale-105 transition-transform duration-700`}>
         <img
@@ -35,6 +54,22 @@ const ProblemCard: React.FC<ProblemCardProps> = ({ title, text, imagePath }) => 
 
 const ProblemStatement: React.FC = () => {
   return (
+    <section className="py-32 px-6 relative overflow-hidden bg-[#040404]">
+      {/* Smooth Transition Overlay at the Top */}
+      <div className="absolute top-0 left-0 right-0 h-28 bg-gradient-to-b from-white to-transparent opacity-[0.04] pointer-events-none" />
+
+      {/* Background radial gradient - Enhanced for dark mode */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[420px] bg-[#334EAC]/10 rounded-full blur-[140px] pointer-events-none" />
+
+      <div className="max-w-6xl mx-auto relative z-10">
+        <div className="text-center space-y-5 mb-16">
+          <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tight max-w-4xl mx-auto leading-tight">
+            RWAs Exist. But the <br className="hidden md:block" />
+            Experience Is Broken
+          </h2>
+          <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+            Real-world assets are moving on-chain, but everyday users still face
+            a broken, fragmented, and unproductive experience.
     <section className="py-32 px-4 relative overflow-hidden bg-black">
       {/* Background radial gradient */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_rgba(59,130,246,0.05)_0%,_transparent_70%)] pointer-events-none" />
